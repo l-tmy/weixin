@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/join/join",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#2e5286",
+    "navigationBarTitleText": "小程序",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#2e5286",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home-active.png"
+    },
+    {
+      "pagePath": "pages/join/join",
+      "text": "加入",
+      "iconPath": "images/join.png",
+      "selectedIconPath": "images/join-active.png"
+    }]
+  }
+}

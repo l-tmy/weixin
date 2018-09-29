@@ -1,0 +1,21 @@
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}" wx:key="index">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='items-list'>
+  <view wx:for="{{proList}}" wx:key="index" class="pro-item {{index!=proList.length-1? 'pro-item-border':'pro-item-last'}}">
+    <image class='pro-logo' src="/images/tooopen_sy_143912755726.jpg"></image>
+    <view class='pro-body'>
+      <view class='pro-title'>精英贷{{item}}</view>
+      <text class='pro-desc'>22周岁以上即可{{index}}\n 22周岁以上即可{{index}}</text>
+      <view class='pro-footer'>
+        <button type="default"  bindtap='toDetail' data-index='{{index}}'>查看详情</button>
+        <button type="primary" open-type="contact">免费在线咨询</button>
+      </view>
+    </view>
+  </view>
+</view>
