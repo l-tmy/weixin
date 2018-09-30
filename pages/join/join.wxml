@@ -1,1 +1,30 @@
-hello 
+<view class='join'>
+  <image class='banner' src="/images/tooopen_sy_143912755726.jpg"></image>
+  <view class='block'>
+    <view class='block-title'>关于我们</view>
+    <text class='block-desc'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述      述描述描述描述描述描述描述描述描述描述描述描述</text>
+  </view>
+  <view class='block'>
+    <view class='block-title'>商务合作</view>
+    <text class='block-desc'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述      述描述描述描述描述描述描述描述描述描述描述描述描述描述描述</text>
+  </view>
+  <view class='block'>
+    <view class='block-title'>联系我们</view>
+    <text class='block-desc'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述      述描述描述描述描述描述描述描述描述描述描述描述</text>
+  </view>
+  <view class='block'>
+    <view class='block-title'>关于我们</view>
+    <text class='block-desc'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述      述描述描述描述描述描述描述描述描述描述描述</text>
+  </view>
+  <view class='block'>
+    <view class='block-title'>关于我们</view>
+    <text class='block-desc'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述      述描述描述描述描述描述描述描述描述描述描述</text>
+  </view>
+  <view class='block'>
+    <view class='block-title'>关于我们</view>
+    <text class='block-desc'>描述描述描述描述描述描述描述描述描述描述描述描述描述描述描述      述描述描述描述描述描述描述描述描述描述描述</text>
+  </view>
+  <view class='footer'>
+    <button type="primary" bindtap='tell'>电话咨询</button>
+  </view>
+</view>

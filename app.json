@@ -2,12 +2,13 @@
   "pages":[
     "pages/index/index",
     "pages/join/join",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/detail/detail"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#2e5286",
-    "navigationBarTitleText": "小程序",
+    "navigationBarTitleText": "demo",
     "navigationBarTextStyle":"white"
   },
   "tabBar": {

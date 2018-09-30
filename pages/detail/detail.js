@@ -1,4 +1,4 @@
-// pages/join/join.js
+// pages/detail/detail.js
 Page({
 
   /**
@@ -62,17 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  // 调用打电话接口
-  tell: function(){
-    wx.makePhoneCall({
-      phoneNumber: '183******',
-      success:(data)=>{
-        console.log('success',data)
-      },
-      fail:(data)=>{
-        console.log('fail',data)
-      }
-    })
   }
 })

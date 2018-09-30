@@ -24,5 +24,8 @@ Page({
     console.log(e);
     var index = e.currentTarget.dataset.index;
     console.log(index)
+    wx.navigateTo({
+      url:'../detail/detail'
+    })
   }
 })
