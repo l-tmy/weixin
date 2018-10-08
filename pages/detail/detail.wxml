@@ -1,2 +1,2 @@
 <!--pages/detail/detail.wxml-->
-<text>pages/detail/detail.wxml</text>
+<text>路由带参数传参，options</text>
