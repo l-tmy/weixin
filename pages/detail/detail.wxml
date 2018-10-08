@@ -1,2 +1,2 @@
 <!--pages/detail/detail.wxml-->
-<text>路由带参数传参，options</text>
+<text>路由带参数传参，options{{title}}</text>

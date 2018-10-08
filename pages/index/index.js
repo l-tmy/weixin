@@ -24,8 +24,9 @@ Page({
     console.log(e);
     var index = e.currentTarget.dataset.index;
     console.log(index)
+    var title = this.data.proList[index]
     wx.navigateTo({
-      url:'../detail/detail?id=1'
+      url: '../detail/detail?title=' + title
     })
   }
 })
