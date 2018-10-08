@@ -13,12 +13,14 @@ Page({
     autoplay: true,
     interval: 5000,
     duration: 1000,
-    proList:[1,2,3,4,5,6]
+    proList:[1,2,3,4,5,6],
+    test:1
   },
   onLoad: function(){
     this.setData({
       test: '01'
     })
+    console.log(this.data.test,app.globalData.test)
   },
   toDetail:function(e){
     console.log(e);
